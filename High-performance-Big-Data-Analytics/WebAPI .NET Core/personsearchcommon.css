@@ -1,0 +1,173 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+.layout-client-master {
+  /*height: 215px;*/
+  display: block;
+
+  position: fixed;
+  height: auto;
+  width: 74%;
+  /*padding-top: 5px;
+  padding-left: 20px;*/
+  margin-top: -83px;
+  /*margin-bottom: 140px;*/
+  margin-left: -20px;
+  z-index: 999997;
+}
+
+.layout-summary {
+  position: static;
+  height: auto;
+  width: 103%;
+  /*padding-top: 5px;
+  padding-left: 20px;*/
+  margin-top: 140px;
+  margin-bottom: 0px;
+  margin-left: -20px;
+  /*margin-right: 20px;*/
+}
+
+.example-radio-group {
+  margin-top: -20px;
+  margin-bottom: 5px;
+  display: inline-flex;
+  flex-direction: column;
+  align-content: flex-start;
+  line-height: 16px;
+  text-align: justify;
+}
+
+.example-radio-group-right {
+  display: inline-flex;
+  flex-direction: column;
+  align-content: flex-start;
+  line-height: 32px;
+  text-align: left;
+}
+
+
+.example-radio-button {
+  margin: 0px;
+}
+
+.example-selected-value {
+  margin: 15px 0;
+}
+/* color for dropbox*/
+.example-panel-red.mat-select-panel {
+  background: rgba(255, 0, 0, 0.5);
+}
+
+.example-panel-green.mat-select-panel {
+  background: rgba(0, 255, 0, 0.5);
+}
+
+.example-panel-blue {
+  background: rgba(155, 155, 255, 0.5);
+}
+
+/*
+  table style
+*/
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid darkgray;
+  border-collapse: collapse;
+}
+
+/*Title-small-text*/
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 1px;
+}
+
+th {
+  height: 20px;
+  align-content: center;
+  text-align: center;
+}
+
+tr {
+  height: 20px;
+}
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+/**/
+.tp-h2 {
+  margin: 10px;
+}
+
+.tp-section {
+  /*height:300px;*/
+}
+
+.tp-margin {
+  /*margin: 0 10px;
+  width: 100px;
+  left: 10px;
+  padding-left: 10px;
+  align-content: flex-start;
+  margin-left: 0px;*/
+}
+
+/* div inline*/
+.parent {
+  display: flex;
+}
+
+  .parent > div {
+    display: inline-block;
+    padding: 1em;
+    border: 2px solid red;
+  }
+
+
+/*How to make tab panels fill remainder of TabView's height */
+/*https://forum.primefaces.org/viewtopic.php?t=18049*/
+#Tabs {
+  position: absolute;
+  top: 9.4286em;
+  bottom: 10em;
+  left: 2.2em;
+  right: 2.3em;
+}
+
+.ui-tabs-panels {
+  height: 100%;
+  width: 100%;
+}
+
+.ui-tabs-panel {
+  height: 100%;
+  width: 100%;
+}
+
+.fa-input {
+  font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.animate-show-hide.ng-hide {
+  opacity: 0;
+}
+
+.animate-show-hide.ng-hide-add,
+.animate-show-hide.ng-hide-remove {
+  transition: all linear 0.5s;
+}
+
+.check-element {
+  border: 1px solid black;
+  opacity: 1;
+  padding: 10px;
+}
